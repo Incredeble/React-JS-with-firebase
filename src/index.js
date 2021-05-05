@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Image from './storageImage/Image';
+import Video from './storageVideo/video';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Image />
+    <Video />
   </React.StrictMode>,
   document.getElementById('root')
 );

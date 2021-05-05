@@ -1,6 +1,7 @@
 import { Component }  from 'react';
 import '../App.css';
 import storage  from '../data';
+
 import 'firebase/storage';
 
 export default class Realtime extends Component {
@@ -8,7 +9,7 @@ export default class Realtime extends Component {
     super(props);
     this.state = {
       image : "",
-     imageUrl : "",
+     imageUrl : "", 
      progress: '',
     }
   }
@@ -64,6 +65,7 @@ export default class Realtime extends Component {
                 <br/>
                 <button type='submit' onClick={this.handleSubmit}>Upload</button>
                 </form>
+                
                 </>
             );
         }
