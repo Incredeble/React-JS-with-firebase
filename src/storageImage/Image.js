@@ -1,5 +1,4 @@
 import { Component }  from 'react';
-import '../App.css';
 import storage  from '../data';
 
 import 'firebase/storage';

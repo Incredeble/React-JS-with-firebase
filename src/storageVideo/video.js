@@ -1,7 +1,5 @@
 import { Component }  from 'react';
-import '../App.css';
 import storage  from '../data';
-import Image from '../storageImage/Image';
 import 'firebase/storage';
 
 export default class Video extends Component {
@@ -80,7 +78,6 @@ export default class Video extends Component {
                 
                 <button type='submit' onClick={this.handleSubmit}>Upload</button>
                 </form>
-                <Image />
                 </>
             );
         }
